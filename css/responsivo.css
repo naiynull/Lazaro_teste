@@ -1,0 +1,29 @@
+
+@media (max-width: 1010px) {
+    main.grid {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        height: 10px;
+    }
+    main.grid {
+        grid-template-columns: auto auto;
+    }
+    main.grid {
+        font-size: 0.9rem;
+    }
+    footer {
+        height: 2.5rem;
+    }
+}
+@media (max-width: 500px) {
+    main.grid {
+        grid-template-columns: auto;
+    }
+    header nav ul li{
+        width: 10px;
+
+    }
+}
